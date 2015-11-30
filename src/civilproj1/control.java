@@ -19,7 +19,7 @@ public class control {
         if(Desktop.isDesktopSupported())
         {
             try {
-                Desktop.getDesktop().browse(new URI("http://google.com/"));
+                Desktop.getDesktop().browse(new URI("https://docs.google.com/forms/d/1u9_azOSh9p7XDJLLhZI_gPGaND-5YwZYC_pRGg5_GFM/viewform?usp=send_form"));
             } catch (IOException | URISyntaxException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
